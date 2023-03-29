@@ -1,0 +1,53 @@
+/* *{
+    box-sizing: border-box;
+}
+.row-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5em;
+    flex-wrap: wrap;
+}
+
+.note-three-container{
+    max-height:50vh ;
+    width: 18vw;
+    padding: 0.8em;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+}
+
+.middle-input{
+    display: flex;
+    min-height: 10vh;
+    padding: 0.3em 0 ;
+    flex-wrap: wrap;
+    font-family: arial;
+    font-size: 0.9em;
+}
+.note3-title{
+    font-weight: 500;
+    font-family: "Segoe UI";
+    font-size:1em;
+} */
+
+
+
+/* .MuiCard-root{
+    min-width: 1em !important;
+} */
+
+.icon-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.desc-container{
+    min-height:auto ;
+    width: 200px; overflow: hidden; white-space: wrap; text-overflow: ellipsis;
+}

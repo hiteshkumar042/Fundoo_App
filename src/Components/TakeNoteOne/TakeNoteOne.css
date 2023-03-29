@@ -1,0 +1,80 @@
+/* *{
+    box-sizing: border-box;
+}
+.noteone-fullwidth{
+    width: 100vw;
+    height:6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.noteone-main-container{
+width: 30vw;
+height: 5.5vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 0.3em;
+box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
+position: absolute;
+top: 25%;
+}
+
+.input-container{
+    width: 60%;
+    
+}
+.input-container input{
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+.noteone-icon-container{
+display: flex;
+margin-right: 0.3em;
+} */
+.note-one-container{ 
+    display: flex;
+}
+
+.note-one-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.input-note-one{
+    outline: none;
+    border: none;
+    padding-left: 2em;
+    font-weight: 500;
+    width: 20em;
+}
+ input::placeholder{
+ font-weight: 400;
+ color: black;
+ font-size: medium;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+ }
+
+ .note-one-main{
+    width: 100vw;
+    height:6vh;
+    margin-top :2em ;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    box-sizing: border-box;
+    position: absolute;
+    left: 5%;
+ }
+
+ @media (max-width: 420px) {
+    .input-note-one{
+        width: 8em;
+    }
+ }
+    

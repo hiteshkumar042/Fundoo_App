@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80vw;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 18%;
+  margin-top: 2em;
+  box-sizing: border-box;
+  grid-row-gap: 20px;
+  
+  
+}
